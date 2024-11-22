@@ -1,0 +1,16 @@
+{
+  "name": "hademo",
+  "version": "0.0.1",
+  "description": "A demo of HomeAssistant REST API based on TypeScript.",
+  "main": "src/index.ts",
+  "repository": "https://github.com/Twiyin0/HADemo.git",
+  "author": "Twiyin0 <yinlingcchan@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsc -p tsconfig.json && node lib/index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "typescript": "^5.6.3"
+  }
+}
